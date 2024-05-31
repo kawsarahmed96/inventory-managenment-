@@ -1,0 +1,33 @@
+1. create a product -->createProduct.html
+-----------------------
+title,
+category
+short description
+price 
+sale price 
+photo
+
+2. product create er por stock create korte hobe 
+
+3.
+
+
+
+
+
+
+
+
+product data structure 
+
+const products = [
+  {
+    title : "Hp laptop",
+    category : "electronics",
+    short_des : "Goob brand laptop",
+    price  : 5000,
+    sale_price : 4500,
+    photo : "img"
+    stock : null
+  }
+]

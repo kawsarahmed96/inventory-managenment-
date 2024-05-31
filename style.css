@@ -1,0 +1,264 @@
+/* Common css  */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ---------------------------- */
+
+/* product form css  */
+
+.container-form {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+}
+.form-group {
+    margin-bottom: 5px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+.form-group input[type="text"],
+.form-group select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.form-group input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    line-height: 25px;
+    width: 100%;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* table style css  */
+
+.container-table {
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-table button {
+    text-align: end;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+th,
+td {
+    padding: 10px 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-group input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #b1cfb8;
+    font-size: 12px;
+}
+
+.crud-btn {
+    background: none;
+    border: none;
+    color: #3b4240;
+    font-size: 0.8rem;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.crud-btn:hover {
+    color: #0056b3;
+}
+.table img {
+    width: 50px;
+    height: auto;
+}
+
+.stock {
+    font-size: 12px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.menu button {
+    background: #28a745;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 0px;
+}
+
+/* product design css  */
+
+.product_container {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product_container .product_body {
+   min-width: 290px;
+   height: 370px;
+   margin: 20px 20px;
+}
+
+.product_body {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product_body:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product_body img {
+    width: 100%;
+    min-height: 217px;
+}
+
+.product_content h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.product_content p {
+    color: #777;
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.price {
+    display: block;
+    font-size: 1em;
+    color: #e67e22;
+    margin: 5px 0;
+}
+
+.product_content .btn {
+    background-color: #f39c12;
+    color: #fff;
+    width: 100%;
+    border: none;
+    padding: 7px 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #d35400;
+}
+
+
+.breadcrumb {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+
+.breadcrumb-item {
+  margin-right: 0.5rem;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-item::after {
+  content: ">";
+  margin-left: 0.5rem;
+}
+
+.breadcrumb-item:last-child::after {
+  content: "";
+  margin: 0;
+}
+
+.breadcrumb-item.active {
+  color: #6c757d;
+}
